@@ -1,0 +1,197 @@
+:root {
+    --color-base: rgb(5, 74, 55);
+  }
+body {
+    font-family: 'figtree', sans-serif;
+    background: linear-gradient(to right, var(--color-base), #4caf50);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #282828;
+    margin: 0;
+}
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #fff; 
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: #4caf50; 
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1rem;
+    transition: color 0.3s ease; 
+}
+
+.menu a:hover {
+    color: #4caf50;
+}
+
+.auth-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.auth-links a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+.auth-links a:hover {
+    color: #4caf50; 
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff; 
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: #f9f9f9; 
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.about p {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: rgb(19, 19, 19); 
+    color: #fff; 
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-content p {
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #fff; 
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #fff;
+    color: #4caf50; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff; 
+    text-align: center;
+    padding: 1rem 0;
+}

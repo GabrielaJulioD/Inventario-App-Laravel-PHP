@@ -1,0 +1,18 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+body{background: linear-gradient(to right, rgb(5, 74, 55), #4caf50);}
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+}
